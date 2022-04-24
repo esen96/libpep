@@ -48,7 +48,7 @@ public class PolicyEnforcementPoint {
 	 */
 	public PolicyResponseDTO queryPolicyServer(ResourceRequestDTO requestDTO) {
 		
-		// Orchestrate the resource system-policy server interaction
+		// Orchestrate the arrowhead system/policy server interaction
 		final OrchestrationResultDTO orchestrationResult = orchestrate(QUERY_INTERFACE_SERVICE_DEFINITION);
 		
 		// Consume policy server query interface service and get the server response
