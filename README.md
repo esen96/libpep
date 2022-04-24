@@ -1,5 +1,5 @@
 # libpep
-Policy enforcement point module from [ngac sos](https://github.com/esen96/sos-ngac). This module contains DTO dependencies from the project alongside standard arrowhead- and java spring libraries; this is deliberate since it restricts systems to sending valid queries when consuming services.
+Policy enforcement point module from [ngac sos](https://github.com/esen96/sos-ngac). This module is system-specific as it contains DTO dependencies from the project alongside standard arrowhead- and java spring libraries; this is deliberate since it restricts systems to sending valid queries when consuming services.
 
 These DTO dependencies can be removed by modifying the policy server and resource systems services to accept primitive types such as Strings and String arrays instead of custom DTOs, thereby making this a more generalized library for any arrowhead system. However, this also makes the services less structured and would induce the developer to implement special error handling upon receiving request bodies. As such, the decision was made to keep these DTO dependencies in the pep module.
 
