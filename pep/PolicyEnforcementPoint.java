@@ -19,7 +19,7 @@ import eu.arrowhead.common.exception.ArrowheadException;
 import eu.arrowhead.common.exception.InvalidParameterException;
 
 /* 
- * Policy enforcement point class for consuming policy server query service 
+ * Policy enforcement point Java Spring component for consuming policy server query service 
  */
 
 @Component
