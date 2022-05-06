@@ -7,7 +7,7 @@ This repository contains the policy DTOs from the ngac sos common files package 
 To get the orchestration process validated, the arrowhead system containing this library needs to be authorized to consume the query interface service from the policy server provider. This is done by adding the corresponding authorization rules to your systems arrowhead database, see the [arrowhead](https://github.com/eclipse-arrowhead/core-java-spring)- or [ngac sos](https://github.com/esen96/sos-ngac) documentation for instructions on how this is done.
 
 ### Invocation
-As this is a Spring component, it can be autowired by the Arrowhead Java Spring system containing it
+As this is a Spring Component, it can be autowired by the Arrowhead Java Spring system containing it
 
 ```java
 @Autowired 
