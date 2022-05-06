@@ -1,5 +1,5 @@
 # libpep
-Policy enforcement point library from [ngac sos](https://github.com/esen96/sos-ngac). The library serves to ease a clients interaction with the policy server system by providing a single entry point for access control, which returns the server response upon calling the overloaded entry function.
+Policy enforcement point library from [ngac sos](https://github.com/esen96/sos-ngac). The library serves to ease a clients interaction with the policy server by providing a single entry point for access control, which returns the server response upon calling the overloaded entry function.
 
 This repository contains the policy DTOs from the ngac sos common files package in order to remove project dependencies, making this spring component fully compatible with other arrowhead systems.
 
