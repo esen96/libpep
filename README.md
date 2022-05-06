@@ -4,7 +4,7 @@ Policy enforcement point library from [ngac sos](https://github.com/esen96/sos-n
 ## Setup
 To get the orchestration process validated, the arrowhead system containing this library needs to be authorized to consume the query interface service from the policy server provider. This is done by adding the corresponding authorization rules to your systems arrowhead database, see the [arrowhead](https://github.com/eclipse-arrowhead/core-java-spring)- or [ngac sos](https://github.com/esen96/sos-ngac) documentation for instructions on how this is done.
 
-### Invokation
+### Invocation
 As this is a Spring component, it can be autowired by the Arrowhead Java Spring system containing it
 
 ```java
