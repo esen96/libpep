@@ -11,13 +11,15 @@ As this is a Spring Component, it can be autowired by the Arrowhead Java Spring 
 @Autowired 
   private PolicyEnforcementPoint pep;
 ```
-The library has one overloaded entry function that returns a policy response DTO from the NGAC policy server. Invocation of non-conditional access control:
+The library has one overloaded entry function that returns a policy response DTO from the NGAC policy server. 
+
+For non-conditional access control:
 
 ```java
   PolicyResponseDTO serverResponse = pep.accessControl("Username", "Operation", "Object");
 ```
 
-Invocation of conditional access control:
+Conditional access control:
 
 ```java
   PolicyResponseDTO serverResponse = pep.accessControl("Username", "Operation", "Object", "Condition");
